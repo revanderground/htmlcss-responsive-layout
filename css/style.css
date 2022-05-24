@@ -232,6 +232,11 @@ header{
 }
 
 /* Section3 */
+
+.section3{
+    padding-bottom: 50px;
+}
+
 .text3{
     padding-top: 10%;
     padding-bottom: 10%;
@@ -251,7 +256,6 @@ header{
     color: var(--purple);
     font-family: Tahoma;
     font-weight: bold;
-    padding-top: 10%;
 }
 
 .card3{
@@ -295,6 +299,62 @@ div.cardtitle3{
     font-size: 100%;
     font-weight: 900;
 }
+
+/* Section4 */
+
+.section4{
+    background-color: var(--purple);
+}
+
+.title4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 200%;
+    color:white;
+    font-weight: bold;
+
+}
+.card4{
+    background-color: white;
+    border-radius: 30px;
+    padding:30px;
+    margin: 15px;
+
+}
+
+.number{
+    font-size: 250%;
+    color: var(--purple);
+    font-weight: bold;  
+    padding-bottom: 20px;  
+}
+
+.titlecard4{
+    color: var(--purple);
+    font-size: 200%;
+    padding-bottom: 20px; 
+
+}
+
+.textcard4{
+    color: var(--grey);
+    font-size: 100%;
+    padding-bottom: 20px;
+}
+
+.buttonmore{
+    color:white;
+    background-color: var(--purple);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width:25%;
+
+}
+
+
 
   /******************** 
         Tablet
@@ -405,7 +465,7 @@ div.cardtitle3{
             color: var(--purple);
             font-family: Tahoma;
             font-weight: bold;
-            padding-top: 3%;
+            
         }
         
         .card3{
@@ -459,6 +519,32 @@ div.cardtitle3{
             padding-left: 20px;
         }
 
+        /* Section 4 */
+
+        .title4{
+            text-align: center;
+        }
+        .boxcard4{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card4{
+            width: 43%;
+        }
+
+        .textcard4{
+            font-size: 90%;
+        }
+
+        .buttonmore{
+            width:50%;
+        }
+        .titlecard4{
+            font-size: 150%;
+        }
         
     }    
 
@@ -471,7 +557,7 @@ div.cardtitle3{
     @media screen and (min-width: 769px ) and (max-width: 992px){
 
         .container{
-            width:80%;   
+            width:70%;   
         }
 
 
@@ -634,7 +720,7 @@ div.cardtitle3{
             color: var(--purple);
             font-family: Tahoma;
             font-weight: bold;
-            padding-top: 3%;
+            
         }
         
         .card3{
@@ -688,6 +774,44 @@ div.cardtitle3{
             padding-left: 20px;
         }
 
+        /* Section 4 Desktop */
+
+        .title4{
+            text-align: center;
+        }
+        .boxcard4{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card4{
+            width: 28%;
+            padding:10px;
+        }
+
+        .textcard4{
+            font-size: 70%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            
+        }
+
+        .number{
+            font-size: 150%;
+            padding-bottom: 10px;
+        }
+
+        .buttonmore{
+            width:30%;
+            padding: 3px 3px;
+            font-size: 70%;
+        }
+        .titlecard4{
+            font-size: 90%;
+            padding-bottom: 10px;
+        }
 
     }
   
@@ -697,7 +821,7 @@ div.cardtitle3{
 
        
     .container{
-        width:80%;   
+        width:70%;   
     }
 
 
@@ -914,6 +1038,46 @@ div.cardtitle3{
             font-size: 90%;
             padding-left: 20px;
         }
+
+         /* Section 4 Large Desktop */
+
+         .title4{
+            text-align: center;
+        }
+        .boxcard4{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card4{
+            width: 28%;
+            padding:10px;
+        }
+
+        .textcard4{
+            font-size: 70%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            
+        }
+
+        .number{
+            font-size: 150%;
+            padding-bottom: 10px;
+        }
+
+        .buttonmore{
+            width:30%;
+            padding: 3px 3px;
+            font-size: 70%;
+        }
+        .titlecard4{
+            font-size: 90%;
+            padding-bottom: 10px;
+        }
+
 
         
     
