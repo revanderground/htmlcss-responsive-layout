@@ -231,7 +231,70 @@ header{
     display: inline-block;
 }
 
+/* Section3 */
+.text3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 130%;
+    color: black;
+    font-family: Tahoma;
+}
 
+.title3{
+    font-size:200%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: var(--purple);
+    font-family: Tahoma;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.card3{
+    
+    background-color: var(--purple);
+    padding: 30px;
+    color: white;
+    width:100%;
+    border-radius: 25px;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.7;
+    font-size: 130%;
+    text-align: center;
+}
+
+.card3a{
+    display:flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+
+.imgtestimonial{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.quotations{
+    font-size: 150%;
+
+}
+
+div.cardtitle3{
+    padding-top: 20px;
+    font-size: 100%;
+    font-weight: 900;
+}
 
   /******************** 
         Tablet
@@ -318,7 +381,98 @@ header{
             padding-bottom: 30px;
         }
      
+        
+        /* Section3 */
+
+
+        .text3{
+            padding-top: 10%;
+            padding-bottom: 10%;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 130%;
+            color: black;
+            font-family: Tahoma;
+        }
+
+        .title3{
+            font-size:120%;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            color: var(--purple);
+            font-family: Tahoma;
+            font-weight: bold;
+        }
+
+        .text3{
+            padding-top: 10%;
+            padding-bottom: 10%;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 130%;
+            color: black;
+            font-family: Tahoma;
+        }
+        
+        .title3{
+            font-size:200%;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            color: var(--purple);
+            font-family: Tahoma;
+            font-weight: bold;
+            padding-top: 10%;
+        }
+        
+        .card3{
+            
+            background-color: var(--purple);
+            padding: 30px;
+            color: white;
+            width:100%;
+            border-radius: 25px;
+            margin-top: 30px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 1.7;
+            font-size: 130%;
+            text-align: center;
+        }
+        
+        .card3a{
+            display:flex;
+            justify-content: center;
+            padding-top: 25px;
+            
+        }
+        
+        .imgtestimonial{
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 100%;
+            text-align: center;
+        }
+        
+        .quotations{
+            font-size: 150%;
+        
+        }
+        
+        div.cardtitle3{
+            padding-top: 20px;
+            font-size: 100%;
+            font-weight: 900;
+        }
+
+        
     }    
+
 
 
   /******************** 
@@ -409,7 +563,7 @@ header{
            
         }
 
-        /* Section2 */
+        /* Section2 Desktop*/
 
         .boxcards2{
             display: flex;
@@ -470,9 +624,31 @@ header{
 
        }
 
+        /* Section3 */
+        .text3{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            text-align: center;
+        
+            font-size: 85%;
+            
+        }
+
+        .title3{
+            font-size:110%;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            color: var(--purple);
+            font-family: Tahoma;
+            font-weight: bold;
+        }
+        
+
     }
   
-  /* Large Desktop */
+  /**********Large Desktop***********
+  ********************************* */
     @media screen and (min-width: 993px) {
 
        
@@ -558,7 +734,7 @@ header{
            
         }
 
-        /* Section2 */
+        /* Section2 Large Desktp */
 
         .boxcards2{
             display: flex;
@@ -601,7 +777,7 @@ header{
            width:47%;
            margin-left: 6%;
            margin-top: 32%;
-           margin-bottom: 30%;
+           margin-bottom:10%;
        }
 
        .cardtitle2b{
@@ -619,5 +795,25 @@ header{
 
        }
 
-    }
+            /* Section3 */
+        .text3{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            text-align: center;
+        
+            font-size: 85%;
+            
+        }
+
+        .title3{
+            font-size:110%;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            color: var(--purple);
+            font-family: Tahoma;
+            font-weight: bold;
+        }
     
+
+    }
