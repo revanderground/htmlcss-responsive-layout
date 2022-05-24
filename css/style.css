@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+/* Common */
+
+:root {
+    --blue: #0084FD;
+    --azure: #B5DDFF;
+    --white:white;
+    --purple: #9792E4;
+    --black: black;
+    --darkgrey: #333333;
+    --lightgrey: lightgrey;
+    --grey: rgb(101, 101, 101);
+  }
+
+.menu ul{
+      list-style-type: none;
+    
+}
+
+.cardtitle{    
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--blue);
+    text-align:center;
+    padding-bottom: 10%;
+}
+
+.d-flex{
+    display:flex;
+
+}
+
+.space-between{
+    space
+}
+
+  /******************** 
+        Mobile 
+  **********************/
+
+header{
+    width:100%;
+    height:70px;
+    position:fixed;
+    background-color: var(--blue);
+}
+
+.container{
+    width:100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+  
+.menu ul{
+    display: none;
+}
+
+.logo{
+    text-align: left;
+    height: 30px;
+    padding-top: 20px;
+}
+
+.hamburger{ 
+    display:block;
+    color: var(--white);
+    font-size: 30px;
+    float: right; 
+    margin-top: -12px;
+
+}
+
+.boxcards{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.card{
+    padding-top: 40px;
+    width:100%;
+    border-radius: 25px;
+    background-color: var(--azure);
+    margin-top: 30px;
+    
+}
+
+.cardwide{
+    padding-top: 40px;
+    width:100%;
+    border-radius: 25px;
+    background-color: var(--azure);
+    margin-top: 30px;
+}
+
+.logocard{
+    color: var(--blue);
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.textcard1{
+    color: var(--grey);
+    font-weight: 700;
+    font-size: 18.5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    line-height: 33px;
+    padding-bottom: 50px;
+}
+
+.textcard2{
+   text-align: center;
+}
+
+.logobottone{
+    color: var(--white);
+    font-size: 20px;    
+}
+
+
+.button{
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    color: var(white);
+    margin-bottom: 10px;
+
+}
+
+.imgcard{
+    padding-top: 10px;
+    width:100%;
+    text-align: center;
+    
+    
+}
+
+.phone{
+    width: 100%;
+    padding-top: 15px;
+    margin: -4px;
+    
+}
+
+  /******************** 
+        Tablet
+  **********************/
+
+    @media screen and (min-width: 481px) and (max-width: 768px){
+        .menu ul{
+            display: none;
+        }
+
+        .hamburger{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .container{
+            width:100%;
+            margin: 0 5px;
+            padding: 0 20px;
+        }
+
+        .boxcards{
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cardwide{
+             width: 60%;
+             margin-left: 1%;
+             margin-right: 1%;
+        }
+
+        .cardwidep1{
+            width:100%;        
+        }
+
+        .cardwidep2{
+            width:50%;
+        }
+
+        .button{
+            width:50%;
+            font-size: 80%;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 9px;
+            margin-left: 10%;
+           
+        }
+
+        .card{
+            width: 30%;
+            margin-left: 1%;
+            margin-right: 1%;
+           
+        }
+
+        .cardtitle{    
+            font-size: 110%;
+            padding-bottom: 20px;   
+        }
+
+        .textcard1{
+            font-size:75%;
+            padding-bottom: 20px;
+            line-height: 25px;
+        }
+
+        .logocard{
+            color: var(--blue);
+            font-size: 300%;
+        }  
+        
+     
+    }    
+
+
+  /******************** 
+        Desktop
+  **********************/
+
+    @media screen and (min-width: 769px ) and (max-width: 992px){
+
+        .container{
+            width:80%;   
+        }
+
+
+        .hamburger{
+            display: none;
+        }
+
+        .menu ul{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .menu ul li{
+            margin-right: 20px;
+            margin-left: 20px;
+            font-size: 20px;
+            color: var(--lightgrey);
+            font-size: 16px;
+        }
+
+        
+        .boxcards{
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cardwide{
+             width: 60%;
+             margin-left: 1%;
+             margin-right: 1%;
+             display:flex;
+             flex-direction: row;
+        }
+
+        .cardwidep1{
+            width:50%;        
+        }
+
+        .cardwidep2{
+            width:50%;
+        }
+
+
+        .button{
+            width:40%;
+            font-size: 100%;
+        }
+
+        .card{
+            width: 30%;
+            margin-left: 1%;
+            margin-right: 1%;  
+           
+        }
+
+        .cardtitle{    
+            font-size: 90%;   
+            padding-left: 10px;
+        }
+
+        .textcard1{
+            font-size:55%;
+            line-height: 18px;
+        }
+
+        .logocard{
+            color: var(--blue);
+            font-size: 300%;
+        }    
+        
+        .button{
+            width:50%;
+            font-size: 80%;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 9px;
+            margin-left: 10%;
+           
+        }
+    
+    }
+  
+  /* Large Desktop */
+    @media screen and (min-width: 993px) {
+
+        .container{
+            width:80%;   
+        }
+
+
+        .hamburger{
+            display: none;
+        }
+
+        .menu ul{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .menu ul li{
+            margin-right: 20px;
+            margin-left: 20px;
+            font-size: 20px;
+            color: var(--lightgrey);
+            font-size: 16px;
+        }
+
+        
+        .boxcards{
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cardwide{
+             width: 60%;
+             margin-left: 1%;
+             margin-right: 1%;
+             display:flex;
+             flex-direction: row;
+        }
+
+        .cardwidep1{
+            width:50%;        
+        }
+
+        .cardwidep2{
+            width:50%;
+        }
+
+
+        .button{
+            width:40%;
+            font-size: 100%;
+        }
+
+        .card{
+            width: 30%;
+            margin-left: 1%;
+            margin-right: 1%;
+            padding-bottom: 0px;
+            padding-top: 10px;  
+           
+        }
+
+        .cardtitle{    
+            font-size: 90%;   
+            padding-left: 10px;
+        }
+
+        .textcard1{
+            font-size:55%;
+            line-height: 18px;
+        }
+
+
+        .logocard{
+            color: var(--blue);
+            font-size: 300%;
+        }    
+        
+        .button{
+            width:50%;
+            font-size: 80%;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 9px;
+            margin-left: 10%;
+           
+        }
+
+        .textcard1{
+            font-size:75%;
+            padding-bottom: 10px;
+            line-height: 25px;
+        }
+
+    }
