@@ -55,6 +55,7 @@ header{
     height:70px;
     position:fixed;
     background-color: var(--blue);
+    z-index:1;
 }
 
 .container{
@@ -354,13 +355,68 @@ div.cardtitle3{
 
 }
 
+/* Section5 */
+
+.title5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: var(--purple);
+}
+
+.text5{
+    padding-bottom: 20px;
+    font-size: 15px;
+    line-height:1.7;
+}
+
+.box5b{
+    position:relative;
+}
+
+.virgoletta{
+    position: absolute;
+    top: -30px;
+    left:150px;
+    color: var(--purple);
+    font-size: 50px;
+}    
+
+.text5b{
+    padding-top: 20px;
+    color:var(--purple);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+
+.button5{
+
+    color: var(--white);
+    background-color: var(--purple);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 40%;
+    font-size: 14px;
+    color: var(white);
+    margin-bottom: 10px;
+    
+}
+
+.logobutton5{
+    margin: 0 3px;
+}
+
 
 
   /******************** 
         Tablet
   **********************/
 
-    @media screen and (min-width: 481px) and (max-width: 768px){
+    @media screen and (min-width: 481px) and (max-width: 768px;) {
         .menu ul{
             display: none;
         }
@@ -545,6 +601,79 @@ div.cardtitle3{
         .titlecard4{
             font-size: 150%;
         }
+
+        /* Section5 */
+
+        .box5{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 30px;
+        }
+
+        .box5a{
+            margin:15px;
+            width:45%;
+        }
+
+        .box5b{
+            margin:15px;
+            width: 45%;
+        }
+
+        .title5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 35px;
+        color: var(--purple);
+        }
+
+        .text5{
+        padding-bottom: 20px;
+        font-size: 15px;
+        line-height:1.7;
+        }
+
+        .box5b{
+        position:relative;
+        }
+
+        .virgoletta{
+        position: absolute;
+        top: -30px;
+        left:100px;
+        color: var(--purple);
+        font-size: 60px;
+        }    
+
+        .text5b{
+        padding-top: 20px;
+        color:var(--purple);
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 20px;
+
+        }
+
+
+        .button5{
+
+        color: var(--white);
+        background-color: var(--purple);
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px 10px;
+        width: 40%;
+        font-size: 14px;
+        color: var(white);
+        margin-bottom: 10px;
+
+        }
+
+        .logobutton5{
+        margin: 0 3px;
+        }
         
     }    
 
@@ -554,10 +683,11 @@ div.cardtitle3{
         Desktop
   **********************/
 
-    @media screen and (min-width: 769px ) and (max-width: 992px){
+    @media screen and (min-width: 769px ){
 
         .container{
             width:70%;   
+            
         }
 
 
@@ -822,6 +952,79 @@ div.cardtitle3{
             padding-bottom: 10px;
         }
 
+         /* Section5 */
+
+         .box5{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 30px;
+        }
+
+        .box5a{
+            margin:15px;
+            width:45%;
+        }
+
+        .box5b{
+            margin:15px;
+            width: 45%;
+        }
+
+        .title5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 200%;
+        color: var(--purple);
+        }
+
+        .text5{
+        padding-bottom: 20px;
+        font-size: 80%;
+        line-height:1.7;
+        }
+
+        .box5b{
+        position:relative;
+        }
+
+        .virgoletta{
+        position: absolute;
+        top: -30px;
+        left:100px;
+        color: var(--purple);
+        font-size: 60px;
+        }    
+
+        .text5b{
+        padding-top: 20px;
+        color:var(--purple);
+        font-size: 100%;
+        font-weight: bold;
+        padding-bottom: 20px;
+
+        }
+
+
+        .button5{
+
+        color: var(--white);
+        background-color: var(--purple);
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px 10px;
+        width: 40%;
+        font-size: 14px;
+        color: var(white);
+        margin-bottom: 10px;
+
+        }
+
+        .logobutton5{
+        margin: 0 3px;
+        }
+
     }
   
   /**********Large Desktop***********
@@ -831,6 +1034,7 @@ div.cardtitle3{
        
     .container{
         width:70%;   
+        justify-content: center;
     }
 
 
@@ -1095,6 +1299,7 @@ div.cardtitle3{
         .titlecard4{
             font-size: 90%;
             padding-bottom: 10px;
+           
         }
 
 
